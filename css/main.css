@@ -505,7 +505,7 @@ img {
   background-position: right 28px center;
 }
 
-.item + .item .list-button {
+.list-button .item + .item {
   margin-left: 8px;
 }
 

@@ -1,6 +1,6 @@
 .item {
     &+& {
-     .list-button {
+     .list-button & {
      margin-left: 8px;    
      }   
     }
