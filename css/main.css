@@ -194,20 +194,19 @@ img {
 
 .contact {
   list-style-type: none;
-  margin: 0px;
+  margin: 0 0 0 auto;
   padding: 0px;
   display: flex;
-  margin-left: auto;
 }
 
-.nav__icon {
+.contact__icon {
   display: block;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 10px;
   fill: currentColor;
 }
 
-.nav__icon:hover, .nav__icon:focus {
+.contact__icon:hover, .contact__icon:focus {
   fill: currentColor;
 }
 
