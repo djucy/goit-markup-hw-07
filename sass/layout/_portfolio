@@ -70,22 +70,23 @@ list-style-type: none;
 
   color: inherit;
 
-:hover,
-:focus {
+&:hover,
+&:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 }
 
 
-.portfolio-item {
-    &-caption {
-  font-weight: 700px;
+.portfolio-item-caption {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  
 }
-    &-text {
+.portfolio-item-text {
   margin-top: 4px;
 
   font-weight: 400;
@@ -95,12 +96,12 @@ list-style-type: none;
 
   color: $grey;
 }
-}
+
 
 .around-line {
   padding: 20px 24px;
 
-  border: 1px solid var(--c-grey);
+  border: 1px solid $c-grey;
 }
 
 .portfolio-text-box {

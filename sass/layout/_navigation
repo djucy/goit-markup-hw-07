@@ -10,8 +10,7 @@
 .nav {
   display: flex;
   align-items: center;
-  &__list,
-  &__contact {
+  &__list {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -77,7 +76,7 @@
         
     
 }
-.nav__link{
+.contact__link{
  &--position {
   display: flex;
   align-items: center;
@@ -96,8 +95,14 @@
 }
 }
 
-.nav__contact {
-  margin-left: auto;
+.contact {
+  
+    list-style-type: none;
+    margin: 0 0 0 auto;
+    padding: 0px;
+    display: flex;
+  
+  
 }
 
 .nav__icon {
